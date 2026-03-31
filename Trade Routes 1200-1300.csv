@@ -1,0 +1,32 @@
+Source_City,Target_City,ROUTE_WEIGHT,Source
+Venice,Alexandria,5,Abu-Lughod
+Venice,Cairo,5,Abu-Lughod
+Venice,Constantinople,5,Pegolotti
+Venice,Genoa,4,Pegolotti
+Genoa,Constantinople,5,Pegolotti
+Genoa,Barcelona,4,Pegolotti
+Genoa,Tabriz,4,Pegolotti
+Constantinople,Venice,5,Pegolotti
+Constantinople,Genoa,5,Pegolotti
+Caffa,Peking,5,Yule
+Tana,Peking,5,Yule
+Ormuz,Tana,5,Yule
+Ormuz,Ormuz,5,Yule
+Alexandria,Tunis,4,Pegolotti Article
+Alexandria,Cairo,4,Abu-Lughod
+Cairo,Alexandria,5,Abu-Lughod
+Messina,Messina,5,Pegolotti Article
+Messina,Naples,5,Pegolotti Article
+Ancona,Acre,4,Pegolotti Article
+Palermo,Naples,5,Pegolotti Article
+Tunis,Tunis,4,Pegolotti Article
+Barcelona,Genoa,4,Pegolotti Article
+Barcelona,Valencia,4,Pegolotti Article
+Beirut,Alexandria,3,Pegolotti Article
+Tripoli,Alexandria,3,Pegolotti Article
+Ragusa,Venice,3,Trade records
+Valencia,Barcelona,3,Trade records
+Mallorca,Barcelona,3,Trade records
+Almeria,Barcelona,3,Trade records
+Amalfi,Venice,4,Yule
+Pisa,Genoa,4,Yule
