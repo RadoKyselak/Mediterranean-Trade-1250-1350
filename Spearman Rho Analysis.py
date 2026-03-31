@@ -7,7 +7,7 @@ from scipy.stats import spearmanr, pointbiserialr
 import statsmodels.api as sm
 from pathlib import Path
 
-ROUTES_FILE = "Trade Routes 1200-1300.csv"
+ROUTES_FILE = "Trade Routes 1250-1350.csv"
 INSTITUTIONS_FILE = "Medieval_Mediterranean_Institutional_Data_1250-1350.xlsx - Institutional Data.csv"
 OUTPUT_DIR = Path("analysis_results")
 OUTPUT_DIR.mkdir(exist_ok=True)
