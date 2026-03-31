@@ -7,7 +7,7 @@ from scipy.stats import spearmanr, pointbiserialr
 import statsmodels.api as sm
 from pathlib import Path
 
-ROUTES_FILE = "Trade Routes 1250-1350.csv"
+ROUTES_FILE = "Trade Routes 1200-1300.csv"
 INSTITUTIONS_FILE = "Medieval_Mediterranean_Institutional_Data_1250-1350.xlsx - Institutional Data.csv"
 OUTPUT_DIR = Path("analysis_results")
 OUTPUT_DIR.mkdir(exist_ok=True)
@@ -62,7 +62,7 @@ def run_medieval_analysis():
     plt.subplot(1, 2, 1)
     sns.regplot(data=df_stats, x='Institutional_Autonomy', y='Betweenness', 
                 scatter_kws={'s': 80, 'alpha': 0.7}, line_kws={'color': "#d90202"})
-    plt.title(f"Institutional Complexity vs City Status\n(Rho: {rho:.4f}, p: {p_rho:.4f}, n: {len(df_stats)})")
+    plt.title(f"Institutional Autonomy vs City Status\n(Rho: {rho:.4f}, p: {p_rho:.4f}, n: {len(df_stats)})")
     plt.xlabel("Institutional Autonomy (Sum of Scores)")
     plt.ylabel("Betweenness Centrality (Network Node Score)")
 
